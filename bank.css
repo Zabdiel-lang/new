@@ -1,0 +1,52 @@
+nav{width:100% ;display: flex; align-items: center;
+    justify-content: space-between;padding: 10px;
+}
+.logo{width: 85px;cursor: pointer;margin:10px}
+nav ul{list-style: none;width: 100%;
+text-align: right;padding-right: 60px;}
+nav ul  li{display: inline-block; margin: 10px 5px;;}
+.btn{
+    display: flex    ;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 30px;
+    border: 20;
+    border-radius:10;
+    color: rgb(247, 247, 247);
+    font-weight: 500;
+    cursor: pointer;
+    width: 90px;
+    background-color: rgba(15, 156, 15, 0.586);
+}
+*{margin: 10px;box-sizing: border-box;}
+a{ text-decoration: none ; text-decoration-line:none ;color: black; }
+h1{margin:10px;padding: 0px;font-size: 40px;padding-bottom: 0px;}
+.tv{ display: inline-block;width: 600px;position: relative;Left:490px ;margin: 10px;padding: 10px;bottom: 310px;}
+.axe{
+    display: inline-block   ;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 10px 10px;
+    border: 30;
+    border-radius:10;
+    -webkit-border-radius:10;
+    -moz-border-radius:10;
+    -ms-border-radius:10;
+    -o-border-radius:10;
+    color: rgb(247, 247, 247);
+    font-weight: 500;
+    cursor: pointer;
+    width: 90px;
+    background-color: rgb(10, 71, 10);
+    text-align: center;
+}
+i{
+    color: rgb(253, 253, 253);
+    border-radius: 30%;
+    border: 50px;
+    background-color: green;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
